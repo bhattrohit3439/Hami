@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+body {
+	font-family: 'Archivo', sans-serif;
+}
+
+.lists > li > a {
+	color: white !important;
+}
+
+.lists > li > a:hover {
+	color: #b4b4b4 !important;
+}
+
+.pages-list > li:hover {
+	color: #1873e0;
+	cursor: pointer;
+}
+
+.headerBtn {
+	padding: 13px 40px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.8px;
+}
+
+.headerBtn:hover {
+	background-color: white;
+	color: #1cbd9d;
+}
+
+.footerLinks > li > a:hover {
+	color: #1c66de !important;
+}
+
+.YourMailInput {
+	background-color: #e8f1f8;
+	height: 52px;
+	padding-left: 40px;
+	border-radius: 30px;
+}
+
+.YourMailInput:focus {
+	background-color: #e8f1f8;
+}
+
+.btnDiv {
+	border-radius: 30px;
+	background-color: #e8f1f8;
+}
+
+.YourMailBtn {
+	margin-left: 2px !important;
+	height: 50px;
+	width: 50px;
+}
+
+.YourMailBtn:hover {
+	background-color: #303030;
+}
+
+.social-media {
+	margin-top: 25px;
+	font-size: 35px;
+}
+
+.social-media > a {
+	text-decoration: none;
+}
+
+.social-media > a:nth-child(1) {
+	color: #4b62b3;
+}
+.social-media > a:nth-child(2) {
+	color: #1da1f2;
+}
+.social-media > a:nth-child(3) {
+	color: #cc2366;
+}
+.social-media > a:nth-child(4) {
+	color: red;
+}
+.social-media > a:nth-child(5) {
+	color: #cb242e;
+}
+.social-media > a:hover {
+	color: #1873e0;
+}
+
+.footerBottom {
+	background-color: #e8f1f8;
+}
