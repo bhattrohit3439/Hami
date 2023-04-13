@@ -29,6 +29,10 @@ body {
 	color: #1cbd9d;
 }
 
+footer {
+	margin-top: 80px;
+}
+
 .footerLinks > li > a:hover {
 	color: #1c66de !important;
 }
