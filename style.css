@@ -29,6 +29,53 @@ body {
 	color: #1cbd9d;
 }
 
+.bg-gray {
+	background-color: #e8f1f8 !important;
+}
+
+.heroImg {
+	width: 48%;
+	top: 10%;
+	right: 5%;
+}
+
+.heroImg > img {
+	width: 100%;
+}
+
+.searchDomain {
+	height: 58px;
+}
+
+.welcomePattern {
+	background-image: url(/Hami/img/core-img/welcome-pattern.png);
+	width: 100%;
+	height: 15%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	bottom: -15px;
+}
+
+.hami-support-area {
+	z-index: 1;
+	position: relative;
+	height: 190px;
+}
+
+.support-pattern {
+	position: absolute;
+	width: 100%;
+	height: calc(100% + 50px);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -2;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 footer {
 	margin-top: 80px;
 }
